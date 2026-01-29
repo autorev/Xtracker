@@ -1,0 +1,21 @@
+{
+    "regions": {
+        "A": {
+            "name": "Region Alpha",
+            "center": [-10.0, 0.0],
+            "width": 6.0,
+            "height": 10.0
+        },
+        "B": {
+            "name": "Region Beta",
+            "center": [10.0, 0.0],
+            "width": 6.0,
+            "height": 6.0
+        }
+    },
+    "simulation": {
+        "step_size": 1.0,
+        "start_x": -20.0,
+        "end_x": 20.0
+    }
+}
