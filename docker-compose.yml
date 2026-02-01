@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  # This service runs your simulation
+  simulation:
+    build: .
+    container_name: gps_simulation
+    volumes:
+      - .:/app
+    # Keeps the output interactive so you see the "In Region" logs
+    stdin_open: true
+    tty: true
